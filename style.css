@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #2e2b28;
+    color: #e0d6c6;
+  }
+  
+  header {
+    background-color: #1e1b18;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #d4b483;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #e0d6c6;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #d4b483;
+  }
+  
+  .hero, .latest-poems, .kategori, .about {
+    padding: 60px 10%;
+  }
+  
+  .poem-card {
+    background-color: #3b3735;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-list li {
+    background-color: #3b3735;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #1e1b18;
+    text-align: center;
+    padding: 20px 10%;
+    font-size: 14px;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #d4b483;
+    color: #2e2b28;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #b89f7a;
+  }
+  .poem-detail {
+    margin-top: 40px;
+  }
+  
+  .poem-detail h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .poem-detail .author {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+  .poem-content {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.8;
+  }
+  
+  .poem-content p {
+    margin: 8px 0;
+  }
+  .hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #eee;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .about, .featured-poems, .submit-call {
+    margin: 40px 0;
+  }
+  
+  .about p, .submit-call p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .featured-poems .poem-card {
+    margin-bottom: 30px;
+  }
+  form {
+    background-color: #2e2b25; /* warna gelap klasik */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    background-color: #3c3a36;
+    color: #f0e9e0;
+    font-size: 16px;
+  }
+  
+  form input[type="text"]::placeholder,
+  form textarea::placeholder {
+    color: #b5a99b;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6e5849;
+    color: #f0e9e0;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #8b6f5b;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+  
+  .poem-featured {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 8px;
+  }
+  
+  .poem-featured h3 {
+    margin-bottom: 10px;
+    color: #f1c27d;
+  }
+  
+  .quote-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    margin: 40px auto;
+    border-left: 5px solid #f1c27d;
+    font-style: italic;
+    color: #ddd;
+    max-width: 800px;
+    text-align: center;
+  }
+  
